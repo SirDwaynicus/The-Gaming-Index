@@ -1,0 +1,62 @@
+
+html
+  {background-color: #202634;
+   text-align: center;
+  }
+
+        h1 
+        {
+          text-align: center;
+          color: #ffffff;
+          font-size: 40px;
+          font-variant: small-caps; 
+          margin-top: 25px; 
+        }
+
+        body
+        {
+            color: #ffffff;
+        }
+
+        .banner
+        {
+            display: block;
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+            width: 80%;
+        }
+
+          a:link {
+            color: white;
+            background-color: transparent;
+            text-decoration: none;
+          }
+          
+          a:visited {
+            color: blue;
+            background-color: transparent;
+            text-decoration: none;
+          }
+
+          a:hover {
+            color: white;
+            background-color: transparent;
+            text-decoration: underline;
+          }
+
+          .text {
+            position: relative;
+          }
+
+          .column {
+            float: left;
+            width: 20%;
+            padding: 30px
+          }
+
+          .row::after {
+            clear: both;
+            display: table;
+          }
